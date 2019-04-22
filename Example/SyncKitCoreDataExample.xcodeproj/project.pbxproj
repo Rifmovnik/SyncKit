@@ -326,7 +326,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				AF3F1187651072FABF1A6CC0 /* [CP] Embed Pods Frameworks */,
 				1FBBEA7C49ACFA13D88D4E15 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -346,8 +345,6 @@
 				641F76D01ED3EBBE00107A88 /* Sources */,
 				641F76D11ED3EBBE00107A88 /* Frameworks */,
 				641F76D21ED3EBBE00107A88 /* Resources */,
-				4E1C8CF3A8C01E28EB340EFC /* [CP] Embed Pods Frameworks */,
-				57694B3BD69E0FBC37ED4A37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -434,7 +431,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SyncKitCoreDataExample/Pods-SyncKitCoreDataExample-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SyncKitCoreDataExample/Pods-SyncKitCoreDataExample-resources.sh",
 				"${PODS_ROOT}/../../SyncKit/Classes/CoreData/QSCloudKitSyncModel.xcdatamodeld",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -443,52 +440,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SyncKitCoreDataExample/Pods-SyncKitCoreDataExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4E1C8CF3A8C01E28EB340EFC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SyncKitCoreDataExampleTests/Pods-SyncKitCoreDataExampleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		57694B3BD69E0FBC37ED4A37 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SyncKitCoreDataExampleTests/Pods-SyncKitCoreDataExampleTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AF3F1187651072FABF1A6CC0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SyncKitCoreDataExample/Pods-SyncKitCoreDataExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SyncKitCoreDataExample/Pods-SyncKitCoreDataExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D95C6C6549BDF6E545FD0AC9 /* [CP] Check Pods Manifest.lock */ = {

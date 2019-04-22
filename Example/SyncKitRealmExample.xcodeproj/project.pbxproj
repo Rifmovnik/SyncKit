@@ -267,8 +267,6 @@
 				640892701EBEFBE5006CD4F9 /* Sources */,
 				640892711EBEFBE5006CD4F9 /* Frameworks */,
 				640892721EBEFBE5006CD4F9 /* Resources */,
-				F46CF2B21FD317910859AC67 /* [CP] Embed Pods Frameworks */,
-				0C84FBAA386A4F40C8C6DE09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -288,7 +286,6 @@
 				6453372F1F54610A00B338B5 /* Sources */,
 				645337301F54610A00B338B5 /* Frameworks */,
 				645337311F54610A00B338B5 /* Resources */,
-				C5C5E9A84BCB9BDFEB6E8578 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -307,8 +304,6 @@
 				64D5D2BB1EBB58630005BFCE /* Sources */,
 				64D5D2BC1EBB58630005BFCE /* Frameworks */,
 				64D5D2BD1EBB58630005BFCE /* Resources */,
-				70A5496CCA6F4FDCD2C0C75D /* [CP] Embed Pods Frameworks */,
-				D555875AF2E8934A8F270B72 /* [CP] Copy Pods Resources */,
 				645337441F54610A00B338B5 /* Embed App Extensions */,
 			);
 			buildRules = (
@@ -337,6 +332,7 @@
 					};
 					645337321F54610A00B338B5 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GAZ29FG8DU;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -352,6 +348,7 @@
 					};
 					64D5D2BE1EBB58630005BFCE = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GAZ29FG8DU;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -417,21 +414,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C84FBAA386A4F40C8C6DE09 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SyncKitRealmExampleTests/Pods-SyncKitRealmExampleTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		15FB0751E6B04BA487B04DFC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -448,21 +430,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		70A5496CCA6F4FDCD2C0C75D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SyncKitRealmExample/Pods-SyncKitRealmExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B815D01E473E92460BCC1BB3 /* [CP] Check Pods Manifest.lock */ = {
@@ -499,51 +466,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C5C5E9A84BCB9BDFEB6E8578 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SyncKitRealmExampleTodayExtension/Pods-SyncKitRealmExampleTodayExtension-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D555875AF2E8934A8F270B72 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SyncKitRealmExample/Pods-SyncKitRealmExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F46CF2B21FD317910859AC67 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SyncKitRealmExampleTests/Pods-SyncKitRealmExampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -657,12 +579,15 @@
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = SyncKitRealmExampleTodayExtension/SyncKitRealmExampleTodayExtension.entitlements;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GAZ29FG8DU;
 				INFOPLIST_FILE = SyncKitRealmExampleTodayExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mentrena.SyncKitRealmDemo.SyncKitRealmExampleTodayExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rifmovnik.example.todayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -673,12 +598,15 @@
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = SyncKitRealmExampleTodayExtension/SyncKitRealmExampleTodayExtension.entitlements;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GAZ29FG8DU;
 				INFOPLIST_FILE = SyncKitRealmExampleTodayExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mentrena.SyncKitRealmDemo.SyncKitRealmExampleTodayExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rifmovnik.example.todayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -789,7 +717,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SyncKitRealmExample/SyncKitRealm.entitlements;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GAZ29FG8DU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -798,7 +726,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mentrena.SyncKitRealmDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rifmovnik.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -809,7 +737,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SyncKitRealmExample/SyncKitRealm.entitlements;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GAZ29FG8DU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -818,7 +746,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mentrena.SyncKitRealmDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rifmovnik.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
